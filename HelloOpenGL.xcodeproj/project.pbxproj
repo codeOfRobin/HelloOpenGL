@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A21D9861821588700B01497 /* HelloGLKitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A21D9851821588700B01497 /* HelloGLKitViewController.m */; };
 		7A3A97041813F23300EBA6A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A3A97031813F23300EBA6A8 /* Foundation.framework */; };
 		7A3A97061813F23300EBA6A8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A3A97051813F23300EBA6A8 /* CoreGraphics.framework */; };
 		7A3A97081813F23300EBA6A8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A3A97071813F23300EBA6A8 /* UIKit.framework */; };
@@ -19,6 +20,9 @@
 		7A3A971F1813F23300EBA6A8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A3A97071813F23300EBA6A8 /* UIKit.framework */; };
 		7A3A97271813F23300EBA6A8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7A3A97251813F23300EBA6A8 /* InfoPlist.strings */; };
 		7A3A97291813F23300EBA6A8 /* HelloOpenGLTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A3A97281813F23300EBA6A8 /* HelloOpenGLTests.m */; };
+		7A3A97331813F38300EBA6A8 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A3A97321813F38300EBA6A8 /* GLKit.framework */; };
+		7A3A97351813F38D00EBA6A8 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A3A97341813F38D00EBA6A8 /* OpenGLES.framework */; };
+		7A3A97371813F39800EBA6A8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A3A97361813F39800EBA6A8 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7A21D9841821588700B01497 /* HelloGLKitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloGLKitViewController.h; sourceTree = "<group>"; };
+		7A21D9851821588700B01497 /* HelloGLKitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloGLKitViewController.m; sourceTree = "<group>"; };
 		7A3A97001813F23300EBA6A8 /* HelloOpenGL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloOpenGL.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A3A97031813F23300EBA6A8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7A3A97051813F23300EBA6A8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +54,9 @@
 		7A3A97241813F23300EBA6A8 /* HelloOpenGLTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloOpenGLTests-Info.plist"; sourceTree = "<group>"; };
 		7A3A97261813F23300EBA6A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7A3A97281813F23300EBA6A8 /* HelloOpenGLTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloOpenGLTests.m; sourceTree = "<group>"; };
+		7A3A97321813F38300EBA6A8 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		7A3A97341813F38D00EBA6A8 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		7A3A97361813F39800EBA6A8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +64,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A3A97371813F39800EBA6A8 /* QuartzCore.framework in Frameworks */,
+				7A3A97351813F38D00EBA6A8 /* OpenGLES.framework in Frameworks */,
+				7A3A97331813F38300EBA6A8 /* GLKit.framework in Frameworks */,
 				7A3A97061813F23300EBA6A8 /* CoreGraphics.framework in Frameworks */,
 				7A3A97081813F23300EBA6A8 /* UIKit.framework in Frameworks */,
 				7A3A97041813F23300EBA6A8 /* Foundation.framework in Frameworks */,
@@ -77,6 +89,8 @@
 		7A3A96F71813F23300EBA6A8 = {
 			isa = PBXGroup;
 			children = (
+				7A21D9841821588700B01497 /* HelloGLKitViewController.h */,
+				7A21D9851821588700B01497 /* HelloGLKitViewController.m */,
 				7A3A97091813F23300EBA6A8 /* HelloOpenGL */,
 				7A3A97221813F23300EBA6A8 /* HelloOpenGLTests */,
 				7A3A97021813F23300EBA6A8 /* Frameworks */,
@@ -96,6 +110,9 @@
 		7A3A97021813F23300EBA6A8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7A3A97361813F39800EBA6A8 /* QuartzCore.framework */,
+				7A3A97341813F38D00EBA6A8 /* OpenGLES.framework */,
+				7A3A97321813F38300EBA6A8 /* GLKit.framework */,
 				7A3A97031813F23300EBA6A8 /* Foundation.framework */,
 				7A3A97051813F23300EBA6A8 /* CoreGraphics.framework */,
 				7A3A97071813F23300EBA6A8 /* UIKit.framework */,
@@ -240,6 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A21D9861821588700B01497 /* HelloGLKitViewController.m in Sources */,
 				7A3A97141813F23300EBA6A8 /* XYZAppDelegate.m in Sources */,
 				7A3A97101813F23300EBA6A8 /* main.m in Sources */,
 			);
@@ -442,6 +460,7 @@
 				7A3A972E1813F23300EBA6A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7A3A972F1813F23300EBA6A8 /* Build configuration list for PBXNativeTarget "HelloOpenGLTests" */ = {
 			isa = XCConfigurationList;
@@ -450,6 +469,7 @@
 				7A3A97311813F23300EBA6A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
